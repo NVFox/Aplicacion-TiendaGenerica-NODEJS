@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: black;
+}
+
+body{
+    text-align: center;
+    background-image: url(../Imagenes/432300-Kycb.jpg);
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color:rgba(243, 239, 232, 0.7);
+}
+
+.contenedor{
+    min-width: 25%;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 15px gray;
+    border-radius: 5px;
+}
+
+.contenedor > form > a {
+    margin-bottom: 5px;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+form input{
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input:hover{
+    box-shadow: 1px 1px 3px black;
+}
+
+select{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+select:hover{
+    box-shadow: 1px 1px 3px black;
+}
+
+.btn-login{
+    background:#7a8997;
+}
+
+.btn-login:hover{
+    background:rgba(122, 137, 151, 0.822);
+}
+
+form .log{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.log i{
+    font-size: 40px;
+}
+
+.log h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+#rol{
+    display: none;
+}
+
+#id{
+    display: none;
+}

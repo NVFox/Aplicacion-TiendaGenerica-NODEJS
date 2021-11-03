@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia Sesión</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <form action="/auth" method="post">
+                <div class="log">
+                    <h2>Bienvenidos a la Tienda</h2>
+                </div>
+                <input type="text" name="UsuLogin" id="user" placeholder="Usuario" required>
+                <input type="password" name="UsuPass" id="pass" placeholder="Contraseña" required>
+                <input type="submit" class="btn-login" value="Iniciar Sesión">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

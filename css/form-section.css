@@ -1,0 +1,57 @@
+.form-section{
+    width: 80%;
+    margin: auto;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+}
+
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75%;
+    background: #d9d1b9;
+    padding: 0 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+
+.form-section .form-cnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 45%;
+}
+
+.form-section .form-content{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-section .form-content label{
+    font-family: 'Montserrat';
+}
+
+.form-section .form-content input{
+    font-family: 'Montserrat';
+    height: 40px;
+}
+
+.form-section .control-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.form-section .control-btn button{
+    font-family: 'Montserrat';
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    background: #46535e;
+    color: 	#f1ecdf;
+}

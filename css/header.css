@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #95afc2;
+}
+
+.head{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+.nombre-tienda{
+    background:#46535e;
+}
+
+.nombre-tienda h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f1ecdf;
+}
+
+.menu-header{
+    box-shadow: 0 3px 5px gray;
+    background:#d9d1b9;
+}
+
+.menu-header .head{
+    width: 99%;
+}
+
+.menu-header a{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.menu-header ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-header li{
+    padding: 1rem;
+    margin: 0 1rem;
+}
